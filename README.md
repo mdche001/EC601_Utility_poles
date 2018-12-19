@@ -13,16 +13,6 @@ Tensorflow-gpu<br>
 Wampserver64: Apache + Mysql + Wordpress<br>
 other necessary libs needed to be import<br>
 
-## Running the model
-
-### Main doc is Train.py
-If the train foder, which can be found in data foder, have enough pictures, just run the Train.py.  
-### Raw Detection  
-Tensorflow-1.9  
-AlexNet  
-### BoundingBox  
-Darkflow
-
 ## Running the google download tests
 
 Put your key into 9th line
@@ -32,6 +22,16 @@ Change lattitude and longitude at line 72
 
 The aim of getStreetviewImage.py is downloading images as training and testing samples based on input location information.<br>
 This code will grab nearby streetview images and record camera parameter into a json file.<br>
+
+## Running the model
+
+### Main doc is Train.py
+If the train foder, which can be found in data foder, have enough pictures, just run the Train.py.  
+### Raw Detection  
+Tensorflow-1.9  
+AlexNet  
+### BoundingBox  
+Darkflow
 
 ## 3D Model
 
