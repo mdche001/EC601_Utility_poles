@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Python Version: 3.6.5<br>		
-Key needed: Google Maps StreetView Service Key
-Tensorflow-gpu
-Wampserver64: Apache + Mysql + Wordpress
-other necessary libs needed to be import
+Key needed: Google Maps StreetView Service Key<br>
+Tensorflow-gpu<br>
+Wampserver64: Apache + Mysql + Wordpress<br>
+other necessary libs needed to be import<br>
 
 ## Running the model
 
@@ -31,7 +31,11 @@ Change lattitude and longitude at line 72
 ### Break down into end to end tests
 
 The aim of getStreetviewImage.py is downloading images as training and testing samples based on input location information.<br>
-This code will grab nearby streetview images and record camera parameter into a json file.
+This code will grab nearby streetview images and record camera parameter into a json file.<br>
+
+## 3D Model
+
+Using pygame and openGL to show the 3D model as gif.
 
 ## Utility_website
 
@@ -51,6 +55,6 @@ Theme is provided by di_business in Wordpress<br>
 
 ## Authors
 
-* **Frank Li** - *Initial work* - [PurpleBooth](https://github.com/FrankLiOnLine)
-* **Jing Li** - *Initial work*
-* **Mingdao Che** - *Initial work*
+* **Frank Li** - *3D work* - [PurpleBooth](https://github.com/FrankLiOnLine)
+* **Jing Li** - *Training work*
+* **Mingdao Che** - *Website work*
