@@ -1,6 +1,18 @@
 # Utility_Pole_Project
 Talon Company Project
 
+To build a website to display the result of utility poles’ detection and their 3D model. Making it easier for companies to consult utility poles’ in certain region.
+
+## Model diagram
+
+The diagram of raw detection is as follows
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/CNNnet.png) 
+
+The classification of attachments on poles is yolo
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/model_architecture.png) 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. And website for this project is on local which only can be display as images on this page. 
@@ -33,9 +45,18 @@ AlexNet
 ### BoundingBox  
 Darkflow
 
-## 3D Model
+### tesnor board
 
-Using pygame and openGL to show the 3D model as gif.
+Ths accuracy analyze is
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/accuracy.PNG) 
+
+The loss is
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/loss.PNG) 
+
+## 3D Model
+Based on the gray color and dark gradient, detect the wire numbers and locations on the pole. Combine these information and got a 3d model of the pole by pygame.
 
 ## Utility_website
 
@@ -52,6 +73,20 @@ Download Google street images when customers clike on the map:(Not yet)<br>
  
 Note:<br>
 Theme is provided by di_business in Wordpress<br>
+
+### Website interface
+
+The index
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/FireShot%20Capture%201%20-%20Utility%20Pole%20–%20Ec601%20project%20-%20http___localhost_wordpress_.png) 
+
+Ths google map page with poles' marker
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/FireShot%20Capture%203%20-%20Simple%20Map%20-%20http___localhost_wordpress_123-2_.png) 
+
+The result of raw detection and 3d model
+
+![image](https://github.com/mdche001/EC601_Utility_poles/blob/master/docu%20images/FireShot%20Capture%204%20-%20%20-%20http___localhost_wordpress_validate.png) 
 
 ## Authors
 
