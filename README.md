@@ -40,14 +40,14 @@ The webiste is based on Wrampper+wordpress+press, the all documents and files is
 ### website description
 
 Main function of this website is:<br>
->>· Customers Account function: Sin up, Log in, Registrition, Find passwords(finished).<br>
->>· google map call(finished).<br>
->>· Download Google street images when customers clike on the map:(Not yet)<br>
->>>>>>1. A python script download images via geolocation.(finished)<br>
->>>>>>2. Monitor section(Not yet).<br>
+Customers Account function: Sin up, Log in, Registrition, Find passwords(finished).<br>
+google map call(finished).<br>
+Download Google street images when customers clike on the map:(Not yet)<br>
+1. A python script download images via geolocation.(finished)<br>
+2. Monitor section(Not yet).<br>
  
- Note:<br>
- Theme is provided by di_business in Wordpress<br>
+Note:<br>
+Theme is provided by di_business in Wordpress<br>
 
 ## Authors
 
